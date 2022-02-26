@@ -31,7 +31,12 @@ h2 {
 <body>
 
 <h1>Gallery: Flavorful Tabouleh</h1>
-<p><img src="images/tabouleh-800.jpg" alt="finely chopped salad ingredients formed in a cylinder" width="800" height="600"></p>
+<p>
+  <picture>
+    <source media="(min-width: 480px)" srcset="images/tabouleh-400.jpg 400w, images/tabouleh-800.jpg 800w" sizes="60vw">
+      <img src="images/tabouleh-800.jpg" alt="finely chopped salad ingredients formed in a cylinder">
+</picture>
+</p>
 <p><a href="gallery.html">[Back to Gallery]</a></p>
 </body>
 </html>

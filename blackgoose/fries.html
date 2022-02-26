@@ -28,7 +28,12 @@ h1 {
 
 <h1>Gallery: Our Fries</h1>
 
-<p><img src="images/fries-800.jpg" alt="close up plate of fries and cup of ketchup" width="800" height="600"></p>
+<p>
+  <picture>
+    <source media="(min-width: 480px)" srcset="images/fries-400.jpg 400w, images/fries-800.jpg 800w" sizes="60vw">
+      <img src="images/fries-800.jpg" alt="close up plate of fries and cup of ketchup">
+</picture>
+</p>
 
 <p><a href="gallery.html">[Back to Gallery]</a></p>
 
